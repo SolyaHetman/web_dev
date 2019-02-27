@@ -1,0 +1,371 @@
+/* Reset Default Browser Styles */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/* Custom Styles */
+
+
+/* General Styles */
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+/* Start Header */
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    max-height: 600px;
+}
+
+header .lead-text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header .lead-text h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 46px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+
+
+/* End Header */
+
+
+/* Start Section Info */
+
+.info-section {
+    margin: 25px 0;
+}
+
+.info-section p,
+.info-section ul,
+.info-section ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+
+.info-section ul,
+.info-section ol {
+    margin-left: 45px;
+}
+
+
+/* End Section Info */
+
+
+/* Start Section Table Info */
+
+.table-info {
+    margin: 40px 0;
+}
+
+.table-info h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: #212529;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table-info table {
+    border: 1px solid #dee2e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+.table-info table thead th {
+    color: #212529;
+}
+
+.table-info table tbody tr th,
+.table-info table thead th {
+    padding: 20px 0;
+}
+
+.table-info table tbody tr th {
+    font-weight: 200;
+}
+
+.table-info table tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+
+/* End section table info */
+
+
+/* Start Section Contact */
+
+.contact {
+    margin: 50px 0;
+}
+
+.contact h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: #212529;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form .form-group label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #212529;
+    padding: 10px 0;
+}
+
+.contact form .form-group input,
+.contact form .form-group textarea {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.contact form .form-group input:focus,
+.contact form .form-group textarea:focus {
+    outline: 0;
+}
+
+.contact form button {
+    background-color: #212529;
+    color: white;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact form button:hover {
+    cursor: pointer;
+}
+
+
+/* End Section Contact */
+
+
+/* Start Section Photo */
+
+.container .info-section .photo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* End Section Photo */
+
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
